@@ -1,2 +1,5 @@
 # Convert_audio_vid-o
-yy
+
+Ce script permet de convertir plusieurs types de fichiers :
+1. Audios en mp3.
+2. Vidéo en MP4.
