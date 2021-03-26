@@ -48,7 +48,7 @@ then
   file_name=$(basename ${1})
   sub_name="$(echo ${file_name} | sed 's/[^[:alnum:]]/-/g' | tr '[:upper:]' '[:lower:]')"
 
-  # renomer les fichiers
+  # renommer les fichiers
   if [[ "${file_name}" != "${sub_name}" ]]
   then
     mv "${file_name}" "${sub_name}"
